@@ -1,0 +1,34 @@
+#Cards {
+    .container {
+        .title {
+            padding-top: 30px;
+
+            p {
+                color: rgb(123, 122, 122);
+                width: 65%;
+            }
+
+            ul {
+                display: flex;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        width: max-content;
+                        padding: 5px 20px 5px 20px;
+                        border-radius: 20px;
+                        background-color: #e8ecf1;
+                        text-decoration: none;
+                        color: black;
+                        margin-right: 20px;
+
+                        &:hover {
+                            background-color: #f45369;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

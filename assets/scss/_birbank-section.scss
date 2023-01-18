@@ -1,0 +1,55 @@
+#Birbank {
+    .container {
+        .row {
+
+            .col-12 {
+                .pay {
+                    margin-top: 20px;
+                    width: 90%;
+                    background-color: #f9fafb !important;
+                    border: 1px solid #dadbdb;
+                    border-radius: 17px;
+
+                    .img {
+                        margin: 70px 75px 100px 50px;
+                    }
+                }
+
+                .text {
+                    width: 91%;
+
+                    .popular {
+                        margin-top: 25px;
+                        color: red;
+                        font-weight: 500;
+                    }
+
+                    ul {
+                        margin-left: -181px;
+                        padding-top: 98px;
+                        list-style: none;
+                        display: flex;
+                        justify-content: space-evenly;
+                        font-weight: 500;
+                    }
+
+                    .order-button {
+                        margin-top: 90px;
+
+                        a {
+                            font-weight: bold;
+                            text-decoration: none;
+                            color: white;
+                            background-color: #f45369;
+                            border-radius: 10px;
+                            padding: 10px 100px 15px 100px;
+                            &:hover{
+                                background-color: rgb(253, 55, 55);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

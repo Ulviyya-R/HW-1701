@@ -1,0 +1,345 @@
+@charset "UTF-8";
+header .top {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .top .logo {
+  cursor: pointer;
+}
+header .top nav {
+  margin-right: 35px;
+  display: flex;
+  justify-content: flex-end;
+}
+header .top nav .search-icon button {
+  margin-left: 15px;
+  border: 1px solid #dc3545;
+  border-radius: 7px;
+  color: #dc3545;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+header .top nav ul {
+  display: flex;
+}
+header .top nav ul li {
+  list-style: none;
+  margin-left: 25px;
+}
+header .top nav ul li svg {
+  color: red;
+}
+header .top nav ul li a {
+  font-weight: 200;
+  color: #2e3131;
+  text-decoration: none;
+}
+header .top .menu {
+  margin-top: 4px;
+  margin-left: 148px;
+  display: flex;
+}
+header .top .menu img {
+  width: 32px;
+  height: 30px;
+  color: white;
+  background-color: #dc3545;
+}
+header .top .menu svg {
+  margin-left: 17px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: white;
+  background-color: #dc3545;
+}
+header .bottom {
+  background-color: #e8ecf1;
+  height: 50px;
+  padding-top: 10px;
+  padding-right: 60px;
+}
+header .bottom nav ul {
+  display: flex;
+}
+header .bottom nav ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+header .bottom nav ul li a {
+  color: #2e3131;
+  text-decoration: none;
+  font-size: 14px;
+}
+header .birbank-button {
+  display: flex;
+  justify-content: end;
+}
+header .birbank-button a {
+  text-decoration: none;
+  color: white;
+  background-color: #f45369;
+  padding: 5px 10px 5px 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 10px;
+}
+
+#Cards .container .title {
+  padding-top: 30px;
+}
+#Cards .container .title p {
+  color: rgb(123, 122, 122);
+  width: 65%;
+}
+#Cards .container .title ul {
+  display: flex;
+}
+#Cards .container .title ul li {
+  list-style: none;
+}
+#Cards .container .title ul li a {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+  background-color: #e8ecf1;
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+#Cards .container .title ul li a:hover {
+  background-color: #f45369;
+}
+
+#Birbank .container .row .col-12 .pay {
+  margin-top: 20px;
+  width: 90%;
+  background-color: #f9fafb !important;
+  border: 1px solid #dadbdb;
+  border-radius: 17px;
+}
+#Birbank .container .row .col-12 .pay .img {
+  margin: 70px 75px 100px 50px;
+}
+#Birbank .container .row .col-12 .text {
+  width: 91%;
+}
+#Birbank .container .row .col-12 .text .popular {
+  margin-top: 25px;
+  color: red;
+  font-weight: 500;
+}
+#Birbank .container .row .col-12 .text ul {
+  margin-left: -181px;
+  padding-top: 98px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 500;
+}
+#Birbank .container .row .col-12 .text .order-button {
+  margin-top: 90px;
+}
+#Birbank .container .row .col-12 .text .order-button a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: #f45369;
+  border-radius: 10px;
+  padding: 10px 100px 15px 100px;
+}
+#Birbank .container .row .col-12 .text .order-button a:hover {
+  background-color: rgb(253, 55, 55);
+}
+
+#Installment .container .title {
+  padding-top: 40px;
+}
+#Installment .container .row .card {
+  margin-top: 100px;
+  height: 259px;
+  background-color: #f9fafb;
+  border: 1px solid #f9fafb;
+  border-radius: 20px;
+}
+#Installment .container .row .card .card-image {
+  position: relative;
+}
+#Installment .container .row .card .card-image img {
+  margin-left: 20px;
+  position: absolute;
+  top: -77px;
+  width: 250px;
+}
+#Installment .container .row .card .common {
+  margin-top: 97px;
+}
+#Installment .container .row .card .common ul {
+  list-style: none;
+}
+#Installment .container .row .card .common ul li::before {
+  content: "•";
+  color: red;
+}
+#Installment .container .row .card .common .buttons {
+  margin-top: 25px;
+}
+#Installment .container .row .card .common .buttons .order {
+  text-decoration: none;
+  color: #f45369;
+  background-color: #f9fafb;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  padding: 10px 21px 10px 21px;
+}
+#Installment .container .row .card .common .buttons .order:hover {
+  color: white;
+  background-color: #f45369;
+}
+#Installment .container .row .card .common .buttons .more {
+  text-decoration: none;
+  color: #616060;
+  background-color: #f9fafb;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  padding: 10px 212px 10px 21px;
+}
+#Installment .container .row .card .common .buttons .more:hover {
+  color: white;
+  background-color: #f45369;
+}
+#Installment .container .row .card .title2 {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 23px;
+  padding-bottom: 20px;
+}
+#Installment .container .text-end {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#section-footer {
+  background-color: #f9fafb;
+  margin-top: 40px;
+}
+#section-footer .container .row ul {
+  width: 100%;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#section-footer .container .row ul li {
+  list-style: none;
+}
+#section-footer .container .row ul li > #colorly {
+  color: #f45369;
+  font-weight: 600;
+}
+#section-footer .container .row ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 35px 0;
+  display: inline-block;
+  color: black;
+}
+
+footer {
+  padding: 35px 0px 24px;
+  font-size: 14px;
+  background-color: #2e3131;
+  color: white;
+}
+footer .container .row .col h3 {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+footer .container .row .col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+footer .container .row .col ul li {
+  margin-bottom: 10px;
+}
+footer .container .row .col ul li a {
+  color: #fafafa;
+  text-decoration: none;
+}
+footer .container .row .col ul li a:hover {
+  color: #f45369;
+}
+footer .container .row .col .footer__download-links ul {
+  margin: 35px;
+}
+footer .container .row .col .footer__download-links ul li a {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 6px;
+  padding: 0px 27px 0px 12px;
+  color: black;
+  width: 190px;
+}
+footer .container .row .col .footer__download-links ul li a img {
+  margin-right: 8px;
+  width: 25px;
+  height: 25px;
+}
+footer .container .row .col .footer__download-links ul li a p b {
+  margin-right: 38px;
+}
+footer .container .footer__social ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+footer .container .footer__social ul li {
+  padding-right: 30px;
+}
+footer .container .footer__social ul li .tel {
+  border: 1px solid #f45369;
+  border-radius: 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 7px;
+}
+footer .container .footer__social ul li .tel i {
+  color: #f45369;
+}
+footer .container .footer__social ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+footer .container .footer__social ul li a:hover {
+  color: #f45369;
+}
+footer .container .footer__bottom .copyright {
+  margin-top: 35px;
+}
+footer .container .footer__bottom .porfond {
+  display: flex;
+  align-items: center;
+}
+footer .container .footer__bottom .porfond .img {
+  padding-left: 30px;
+}
+footer .container .footer__bottom .porfond .img a {
+  display: flex;
+}/*# sourceMappingURL=main.css.map */

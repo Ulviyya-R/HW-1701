@@ -1,0 +1,30 @@
+#section-footer{
+    background-color: #f9fafb;
+    margin-top: 40px;
+    .container{
+        .row{
+            ul{
+                width: 100%;
+                padding-left: 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                li{
+                    list-style: none;
+                    >#colorly{
+                        color: #f45369;
+                        font-weight: 600;
+                    }
+                    a{
+                        text-decoration: none;
+                        font-size: 14px;
+                        line-height: 18px;
+                        padding: 35px 0;
+                        display: inline-block;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

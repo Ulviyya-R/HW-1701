@@ -1,0 +1,115 @@
+$common-collor: white;
+
+footer {
+    padding: 35px 0px 24px;
+    font-size: 14px;
+    background-color: #2e3131;
+    color: $common-collor;
+
+    .container {
+        .row {
+            .col {
+                h3 {
+                    font-size: 14px;
+                    padding-bottom: 8px;
+                }
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+
+                    li {
+                        margin-bottom: 10px;
+
+                        a {
+                            color: #fafafa;
+                            text-decoration: none;
+                            &:hover{
+                                color: #f45369;
+                            }
+                        }
+                    }
+                }
+
+                .footer__download-links {
+                    ul {
+                        margin: 35px;
+                        li {
+                            a {
+                                display: flex;
+                                align-items: center;
+                                background-color: white;
+                                border-radius: 6px;
+                                padding: 0px 27px 0px 12px;
+                                color: black;
+                                width: 190px;
+                                
+
+                                img {
+                                    margin-right: 8px;
+                                    width: 25px;
+                                    height: 25px;
+                                }
+                                p{
+                                    b{
+                                        margin-right: 38px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer__social{
+            ul{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                list-style: none;
+                padding: 0;
+                li{
+                    padding-right: 30px;
+                    .tel{
+                        border: 1px solid #f45369;
+                        border-radius: 10px;
+                        width: max-content;
+                        padding: 7px;
+                        i{
+                            color: #f45369;
+                        }
+                    }
+                   a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 20px;
+                    &:hover{
+                        color: #f45369;
+                    }
+                   }
+
+                }
+            }
+
+        }
+        .footer__bottom{
+            .copyright{
+                margin-top: 35px;
+            }
+            .porfond{
+                display: flex;
+                align-items: center;
+            .img{
+                
+                padding-left: 30px;
+                a{
+                    display: flex;
+                    
+                    
+                }
+            }
+        }
+    }
+    }
+}
